@@ -21,22 +21,6 @@ npm run build.prod
 
 _Does not rely on any global dependencies._
 
-# Table of Content
-
-- [Introduction](#introduction)
-- [How to start](#how-to-start)
-- [Table of Content](#table-of-content)
-- [Configuration](#configuration)
-- [How to extend?](#how-to-extend)
-- [Running tests](#running-tests)
-- [Contributing](#contributing)
-- [Advanced Seed Option](#advanced-seed-option)
-- [Examples](#examples)
-- [Directory Structure](#directory-structure)
-- [Contributors](#contributors)
-- [Change Log](#change-log)
-- [License](#license)
-
 # Configuration
 
 Default application server configuration
