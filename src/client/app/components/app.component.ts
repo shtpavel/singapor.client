@@ -6,6 +6,7 @@ import {NameListService} from '../shared/index';
 import {HomeComponent} from '../+home/index';
 import {AboutComponent} from '../+about/index';
 import {LoginComponent} from "../+login/index";
+import {RegisterComponent} from "../+register/index";
 
 @Component({
   selector: 'app',
@@ -21,9 +22,9 @@ import {LoginComponent} from "../+login/index";
     useAsDefault: true
   },
   {
-    path: '/about',
-    name: 'About',
-    component: AboutComponent
+    path: '/register',
+    name: 'Register',
+    component: RegisterComponent
   }
 ])
 export class AppComponent {}

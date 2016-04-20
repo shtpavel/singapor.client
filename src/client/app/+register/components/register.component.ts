@@ -6,16 +6,15 @@ import {ControlGroup} from "angular2/common";
 import {ROUTER_DIRECTIVES} from "angular2/router";
 
 @Component({
-  selector: 'login-form',
-  templateUrl: 'app/+login/components/login.component.html',
+  selector: 'register-form',
+  templateUrl: 'app/+register/components/register.component.html',
   directives: [FORM_DIRECTIVES, CORE_DIRECTIVES, ROUTER_DIRECTIVES]
 })
-export class LoginComponent {
+export class RegisterComponent {
   public formGroup: ControlGroup;
   constructor() {
     this.formGroup = new ControlGroup({
       email: new Control(""),
-      password: new Control(""),
     });
   }
 
