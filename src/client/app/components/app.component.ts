@@ -5,18 +5,20 @@ import {ToolbarComponent} from './toolbar.component';
 import {NameListService} from '../shared/index';
 import {HomeComponent} from '../+home/index';
 import {AboutComponent} from '../+about/index';
+import {LoginComponent} from "../+login/index";
 
 @Component({
-  selector: 'sd-app',
+  selector: 'app',
   viewProviders: [NameListService],
   templateUrl: 'app/components/app.component.html',
   directives: [ROUTER_DIRECTIVES, NavbarComponent, ToolbarComponent]
 })
 @RouteConfig([
   {
-    path: '/',
-    name: 'Home',
-    component: HomeComponent
+    path: '/login',
+    name: 'Login',
+    component: LoginComponent,
+    useAsDefault: true
   },
   {
     path: '/about',

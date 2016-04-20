@@ -22,7 +22,7 @@ export class SeedConfig {
 
   BOOTSTRAP_MODULE     = this.ENABLE_HOT_LOADING ? 'hot_loader_main' : 'main';
 
-  APP_TITLE            = 'My Angular2 App';
+  APP_TITLE            = 'Singapor';
 
   APP_SRC              = 'src/client';
   ASSETS_SRC           = `${this.APP_SRC}/assets`;
@@ -58,6 +58,8 @@ export class SeedConfig {
     { src: 'rxjs/bundles/Rx.js', inject: 'libs', env: ENVIRONMENTS.DEVELOPMENT },
     { src: 'angular2/bundles/angular2.js', inject: 'libs', env: ENVIRONMENTS.DEVELOPMENT },
     { src: 'angular2/bundles/router.js', inject: 'libs', env: ENVIRONMENTS.DEVELOPMENT },
+    { src: 'jquery/dist/jquery.js', inject: 'libs', env: ENVIRONMENTS.DEVELOPMENT },
+    { src: 'bootstrap/dist/js/bootstrap.min.js', inject: 'libs', env: ENVIRONMENTS.DEVELOPMENT },
     { src: 'angular2/bundles/http.js', inject: 'libs', env: ENVIRONMENTS.DEVELOPMENT }
   ];
 
